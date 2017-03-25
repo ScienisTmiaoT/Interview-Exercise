@@ -2,11 +2,11 @@
 ** Author: Marvin
 ** Date: 2017 / 03 / 25
 */
-#include "delete_plalindrome.h"
+#include "char_shift.h"
 
 
 int main()
 {
-	plalindrome();
+	charshift();
 	return 0;
 }
