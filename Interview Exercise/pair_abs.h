@@ -38,30 +38,10 @@ void pairabs()
 		sort(arr.begin(), arr.end());
 		long min_value = INTMAX;
 		long max_value = -1;
-		//for (int i = 0; i < n; i++)
-		//{
-		//	for (int j = i + 1; j < n; j++)
-		//	{
-		//		long temp = abs(arr[j] - arr[i]);
-		//		if (temp < min_value)
-		//		{
-		//			min_count = 1;
-		//			min_value = temp;
-		//		}
-		//		else if(temp == min_value)
-		//			min_count++;
 
-		//		if (temp > max_value)
-		//		{
-		//			max_count = 1;
-		//			max_value = temp;
-		//		}
-		//		else if (temp == max_value)
-		//			max_count++;
-		//	}
-		//}
-
+		//pair count for the same value
 		int q = 0;
+		//count for the same number
 		int c = 1;
 		for (int i = 0; i < n - 1; i++)
 		{
@@ -74,12 +54,14 @@ void pairabs()
 			else if (temp == min_value)
 				min_count++;
 
+			//start count
 			if (arr[i] == arr[i + 1])
 			{
 				c++;
 			}
 			else
 			{
+				//add the previous same pair count
 				if (c != 1)
 				{
 					q += c * (c - 1) / 2;
@@ -88,6 +70,7 @@ void pairabs()
 			}
 		}
 
+		//throw the min_count
 		if (q != 0)
 		{
 			if (c != 1)
@@ -96,8 +79,11 @@ void pairabs()
 				min_count = q;
 		}
 
+		//same minimal number
 		int m = 1;
+		//same maximal number
 		int s = 1;
+		//all the number of array are same
 		if (arr[0] == arr[n - 1])
 		{
 			max_count = n * (n - 1) / 2;
@@ -106,6 +92,7 @@ void pairabs()
 		{
 			for (int i = 1; i < n - 1; i++)
 			{
+				//start count
 				if (arr[i] == arr[0])
 					m++;
 				if (arr[i] == arr[n - 1])

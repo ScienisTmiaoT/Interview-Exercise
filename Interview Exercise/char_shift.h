@@ -39,6 +39,7 @@ void charshift()
 			{
 				if (pre < ke)
 				{
+					//there is one lowercase between two uppercase
 					if (te == -1)
 					{
 						char t = s[ke];
@@ -46,12 +47,14 @@ void charshift()
 						s[pre] = t;
 						ke = pre;
 					}
+					//there are more than one lowercase between two uppercase
 					else
 					{
 						char t = s[ke];
 						s[ke] = s[pre];
 						int ba = te - 1;
 						char d = s[te];
+						//shift the lowercase to right until the pre
 						while (ba >= pre)
 						{
 							char k = s[ba];
