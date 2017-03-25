@@ -2,11 +2,11 @@
 ** Author: Marvin
 ** Date: 2017 / 03 / 25
 */
-#include "char_shift.h"
+#include "pair_abs.h"
 
 
 int main()
 {
-	charshift();
+	pairabs();
 	return 0;
 }
