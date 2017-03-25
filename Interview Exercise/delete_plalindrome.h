@@ -1,3 +1,7 @@
+/*
+** Author: Marvin
+** Date: 2017 / 03 / 25
+*/
 #ifndef DELETE_PLALINDROME_H
 #define DELETE_PLALINDROME_H
 
