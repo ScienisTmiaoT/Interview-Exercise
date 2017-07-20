@@ -34,6 +34,8 @@ public:
                 int height = heights[index.back()];
                 index.pop_back();
                 //如果之前只有一个数在index里面，此时已经弹出，不能使用index.back()了
+                //这是计算边长，index为空说明刚刚弹出栈的高度是第一个压进去的，也就是
+                //可以通过i来定位边长，若是非空则要通过下一个栈里的元素来获得边长
                 int bias = index.empty() ? -1 : index.back();
                 area = std::max(area, height * (i - 1 - bias));
             }
