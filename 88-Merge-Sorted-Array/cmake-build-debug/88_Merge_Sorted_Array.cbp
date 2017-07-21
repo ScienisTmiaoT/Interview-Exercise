@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="88_Merge_Sorted_Array"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/Marvin/Collection/Git/Github/C++/Interview Exercise/88-Merge-Sorted-Array/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/WorkStation/CodeTool/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;D:/Marvin/Collection/Git/Github/C++/Interview Exercise/88-Merge-Sorted-Array/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/WorkStation/CodeTool/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;D:/Marvin/Collection/Git/Github/C++/Interview Exercise/88-Merge-Sorted-Array/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/WorkStation/CodeTool/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;D:/Marvin/Collection/Git/Github/C++/Interview Exercise/88-Merge-Sorted-Array/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/WorkStation/CodeTool/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;D:/Marvin/Collection/Git/Github/C++/Interview Exercise/88-Merge-Sorted-Array/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="88_Merge_Sorted_Array">
+				<Option output="D:/Marvin/Collection/Git/Github/C++/Interview Exercise/88-Merge-Sorted-Array/cmake-build-debug/88_Merge_Sorted_Array.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Marvin/Collection/Git/Github/C++/Interview Exercise/88-Merge-Sorted-Array/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/WorkStation/CodeTool/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++"/>
+					<Add directory="C:/WorkStation/CodeTool/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/mingw32"/>
+					<Add directory="C:/WorkStation/CodeTool/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="C:/WorkStation/CodeTool/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include"/>
+					<Add directory="C:/WorkStation/CodeTool/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../include"/>
+					<Add directory="C:/WorkStation/CodeTool/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/WorkStation/CodeTool/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;D:/Marvin/Collection/Git/Github/C++/Interview Exercise/88-Merge-Sorted-Array/cmake-build-debug/Makefile&quot;  VERBOSE=1 88_Merge_Sorted_Array"/>
+					<CompileFile command="C:/WorkStation/CodeTool/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;D:/Marvin/Collection/Git/Github/C++/Interview Exercise/88-Merge-Sorted-Array/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/WorkStation/CodeTool/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;D:/Marvin/Collection/Git/Github/C++/Interview Exercise/88-Merge-Sorted-Array/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/WorkStation/CodeTool/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;D:/Marvin/Collection/Git/Github/C++/Interview Exercise/88-Merge-Sorted-Array/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="88_Merge_Sorted_Array/fast">
+				<Option output="D:/Marvin/Collection/Git/Github/C++/Interview Exercise/88-Merge-Sorted-Array/cmake-build-debug/88_Merge_Sorted_Array.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Marvin/Collection/Git/Github/C++/Interview Exercise/88-Merge-Sorted-Array/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/WorkStation/CodeTool/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++"/>
+					<Add directory="C:/WorkStation/CodeTool/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/mingw32"/>
+					<Add directory="C:/WorkStation/CodeTool/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="C:/WorkStation/CodeTool/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include"/>
+					<Add directory="C:/WorkStation/CodeTool/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../include"/>
+					<Add directory="C:/WorkStation/CodeTool/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/WorkStation/CodeTool/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;D:/Marvin/Collection/Git/Github/C++/Interview Exercise/88-Merge-Sorted-Array/cmake-build-debug/Makefile&quot;  VERBOSE=1 88_Merge_Sorted_Array/fast"/>
+					<CompileFile command="C:/WorkStation/CodeTool/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;D:/Marvin/Collection/Git/Github/C++/Interview Exercise/88-Merge-Sorted-Array/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/WorkStation/CodeTool/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;D:/Marvin/Collection/Git/Github/C++/Interview Exercise/88-Merge-Sorted-Array/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/WorkStation/CodeTool/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;D:/Marvin/Collection/Git/Github/C++/Interview Exercise/88-Merge-Sorted-Array/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/Marvin/Collection/Git/Github/C++/Interview Exercise/88-Merge-Sorted-Array/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/WorkStation/CodeTool/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;D:/Marvin/Collection/Git/Github/C++/Interview Exercise/88-Merge-Sorted-Array/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/WorkStation/CodeTool/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;D:/Marvin/Collection/Git/Github/C++/Interview Exercise/88-Merge-Sorted-Array/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/WorkStation/CodeTool/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;D:/Marvin/Collection/Git/Github/C++/Interview Exercise/88-Merge-Sorted-Array/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/WorkStation/CodeTool/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;D:/Marvin/Collection/Git/Github/C++/Interview Exercise/88-Merge-Sorted-Array/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/Marvin/Collection/Git/Github/C++/Interview Exercise/88-Merge-Sorted-Array/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/WorkStation/CodeTool/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;D:/Marvin/Collection/Git/Github/C++/Interview Exercise/88-Merge-Sorted-Array/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/WorkStation/CodeTool/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;D:/Marvin/Collection/Git/Github/C++/Interview Exercise/88-Merge-Sorted-Array/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/WorkStation/CodeTool/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;D:/Marvin/Collection/Git/Github/C++/Interview Exercise/88-Merge-Sorted-Array/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/WorkStation/CodeTool/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;D:/Marvin/Collection/Git/Github/C++/Interview Exercise/88-Merge-Sorted-Array/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/Marvin/Collection/Git/Github/C++/Interview Exercise/88-Merge-Sorted-Array/array.h">
+			<Option target="88_Merge_Sorted_Array"/>
+		</Unit>
+		<Unit filename="D:/Marvin/Collection/Git/Github/C++/Interview Exercise/88-Merge-Sorted-Array/main.cpp">
+			<Option target="88_Merge_Sorted_Array"/>
+		</Unit>
+		<Unit filename="D:/Marvin/Collection/Git/Github/C++/Interview Exercise/88-Merge-Sorted-Array/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
