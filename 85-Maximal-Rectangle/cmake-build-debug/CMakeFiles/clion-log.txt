@@ -1,4 +1,0 @@
-"C:\WorkStation\CodeTool\JetBrains\CLion 2017.1.2\bin\cmake\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "D:\Marvin\Collection\Git\Github\C++\Interview Exercise\85-Maximal-Rectangle"
--- Configuring done
--- Generating done
--- Build files have been written to: D:/Marvin/Collection/Git/Github/C++/Interview Exercise/85-Maximal-Rectangle/cmake-build-debug

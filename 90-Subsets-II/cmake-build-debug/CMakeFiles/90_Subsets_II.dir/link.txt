@@ -1,3 +1,0 @@
-"C:\WorkStation\CodeTool\JetBrains\CLion 2017.1.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\90_Subsets_II.dir/objects.a
-C:\WorkStation\CodeTool\CodeBlocks\MinGW\bin\ar.exe cr CMakeFiles\90_Subsets_II.dir/objects.a @CMakeFiles\90_Subsets_II.dir\objects1.rsp
-C:\WorkStation\CodeTool\CodeBlocks\MinGW\bin\g++.exe  -g   -Wl,--whole-archive CMakeFiles\90_Subsets_II.dir/objects.a -Wl,--no-whole-archive  -o 90_Subsets_II.exe -Wl,--out-implib,lib90_Subsets_II.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\90_Subsets_II.dir\linklibs.rsp
